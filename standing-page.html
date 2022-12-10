@@ -1,0 +1,3214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standings report</title>
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS -->
+   <link rel="stylesheet" href="css/mediaquary.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/main-page.css">
+    
+    <link rel="stylesheet" href="css/standing-page.css">
+    
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg p-2">
+        <div class="container">
+            <a>
+                <img src="images/logo.png" alt="Major League Baseball logo ">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="standing-page.html">Standings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="league-state-page.html">Stats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="teams-page.html">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="home.html">Team Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="Player.html">Player Details</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- NAVBAR END-->
+
+
+    <!-- MAIN Section -->
+    <main class="mt-5 mb-3">
+        <div class="container">
+            <div class="main-section px-2 pt-2 main-box">
+                <div class="row ">
+                    <div class="col-lg-2 ">
+                        <div class="main-img">
+                            <img src="images/major_league_baseball.png" alt="Major League Baseball">
+                        </div>
+                    </div>
+                    <div class="col-lg-10  ">
+                        <div class="main-text px-3">
+                            <h2>MAJOR LEAGUE BASEBALL</h2>
+                            <h5>STANDINGS REPORT</h5>
+                            <p class="date text-center">04/12/2022</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- nav-tabs -->
+                <ul class="nav justify-content-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BNN Index</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MLB</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SCORES</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">STANDINGS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">STATS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TEAMS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PLAYERS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRANSACTIONS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HISTORY</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <!-- Standing section -->
+    <section class="standing-section">
+        <div class="container">
+            <div class="table-responsive">
+                <h5>AMERICAN LEAGUE, EAST DIVISION</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col">W</th>
+                            <th scope="col">L</th>
+                            <th scope="col">PCT</th>
+                            <th scope="col">GB</th>
+                            <th scope="col">Pyt.Rec</th>
+                            <th scope="col">Diff</th>
+                            <th scope="col">Home</th>
+                            <th scope="col">Away</th>
+                            <th scope="col">XInn</th>
+                            <th scope="col">1Run</th>
+                            <th scope="col">M#</th>
+                            <th scope="col">Streak</th>
+                            <th scope="col">Last10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Toronto Blue Jays</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Tampa Bay Rays</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Boston Red Sox</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">New York Yankees</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Baltimore Orioles</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-responsive">
+                <h5>AMERICAN LEAGUE, CENTRAL DIVISION</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col">W</th>
+                            <th scope="col">L</th>
+                            <th scope="col">PCT</th>
+                            <th scope="col">GB</th>
+                            <th scope="col">Pyt.Rec</th>
+                            <th scope="col">Diff</th>
+                            <th scope="col">Home</th>
+                            <th scope="col">Away</th>
+                            <th scope="col">XInn</th>
+                            <th scope="col">1Run</th>
+                            <th scope="col">M#</th>
+                            <th scope="col">Streak</th>
+                            <th scope="col">Last10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Chicago White Sox</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Cleveland Guardians</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Detroit Tigers</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Kansas City Royals</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Minnesota Twins</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-responsive">
+                <h5>AMERICAN LEAGUE, WEST DIVISION</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col">W</th>
+                            <th scope="col">L</th>
+                            <th scope="col">PCT</th>
+                            <th scope="col">GB</th>
+                            <th scope="col">Pyt.Rec</th>
+                            <th scope="col">Diff</th>
+                            <th scope="col">Home</th>
+                            <th scope="col">Away</th>
+                            <th scope="col">XInn</th>
+                            <th scope="col">1Run</th>
+                            <th scope="col">M#</th>
+                            <th scope="col">Streak</th>
+                            <th scope="col">Last10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Houston Astros</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Los Angeles Angels</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Oakland Athletics</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Seattle Mariners</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Texas Rangers</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+            <div class="table-responsive">
+                <h5>AMERICAN LEAGUE WILDCARD</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col">W</th>
+                            <th scope="col">L</th>
+                            <th scope="col">PCT</th>
+                            <th scope="col">GB</th>
+                            <th scope="col">Pyt.Rec</th>
+                            <th scope="col">Diff</th>
+                            <th scope="col">Home</th>
+                            <th scope="col">Away</th>
+                            <th scope="col">XInn</th>
+                            <th scope="col">1Run</th>
+                            <th scope="col">M#</th>
+                            <th scope="col">Streak</th>
+                            <th scope="col">Last10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Baltimore Orioles</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Boston Red Sox</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Chicago White Sox</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Cleveland Guardians</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Detroit Tigers</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <a href="#">Houston Astros</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Kansas City Royals</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Los Angeles Angels</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Minnesota Twins</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <a href="#">New York Yankees</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Oakland Athletics</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Seattle Mariners</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Tampa Bay Rays</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+
+
+
+
+
+
+
+
+                        <tr>
+                            <td>
+                                <a href="#">Texas Rangers</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Toronto Blue Jays</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="table-responsive">
+                <h5>NATIONAL LEAGUE, EAST DIVISION</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col">W</th>
+                            <th scope="col">L</th>
+                            <th scope="col">PCT</th>
+                            <th scope="col">GB</th>
+                            <th scope="col">Pyt.Rec</th>
+                            <th scope="col">Diff</th>
+                            <th scope="col">Home</th>
+                            <th scope="col">Away</th>
+                            <th scope="col">XInn</th>
+                            <th scope="col">1Run</th>
+                            <th scope="col">M#</th>
+                            <th scope="col">Streak</th>
+                            <th scope="col">Last10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Atlanta Braves</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Miami Marlins</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">New York Mets</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Philadelphia Phillies</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Washington Nationals</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+
+            <div class="table-responsive">
+                <h5>NATIONAL LEAGUE, CENTRAL DIVISION</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col">W</th>
+                            <th scope="col">L</th>
+                            <th scope="col">PCT</th>
+                            <th scope="col">GB</th>
+                            <th scope="col">Pyt.Rec</th>
+                            <th scope="col">Diff</th>
+                            <th scope="col">Home</th>
+                            <th scope="col">Away</th>
+                            <th scope="col">XInn</th>
+                            <th scope="col">1Run</th>
+                            <th scope="col">M#</th>
+                            <th scope="col">Streak</th>
+                            <th scope="col">Last10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Chicago Cubs</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Cincinnati Reds</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Milwaukee Brewers</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Pittsburgh Pirates</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">St. Louis Cardinals</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="table-responsive">
+                <h5>NATIONAL LEAGUE, WEST DIVISION</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col">W</th>
+                            <th scope="col">L</th>
+                            <th scope="col">PCT</th>
+                            <th scope="col">GB</th>
+                            <th scope="col">Pyt.Rec</th>
+                            <th scope="col">Diff</th>
+                            <th scope="col">Home</th>
+                            <th scope="col">Away</th>
+                            <th scope="col">XInn</th>
+                            <th scope="col">1Run</th>
+                            <th scope="col">M#</th>
+                            <th scope="col">Streak</th>
+                            <th scope="col">Last10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Arizona Diamondbacks</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Colorado Rockies</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Los Angeles Dodgers</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">San Diego Padres</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">San Francisco Giants</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+            <div class="table-responsive">
+                <h5>NATIONAL LEAGUE WILDCARD</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col">W</th>
+                            <th scope="col">L</th>
+                            <th scope="col">PCT</th>
+                            <th scope="col">GB</th>
+                            <th scope="col">Pyt.Rec</th>
+                            <th scope="col">Diff</th>
+                            <th scope="col">Home</th>
+                            <th scope="col">Away</th>
+                            <th scope="col">XInn</th>
+                            <th scope="col">1Run</th>
+                            <th scope="col">M#</th>
+                            <th scope="col">Streak</th>
+                            <th scope="col">Last10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Arizona Diamondbacks</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Atlanta Braves</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Chicago Cubs</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Cincinnati Reds</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Colorado Rockies</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <a href="#">Miami Marlins</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Los Angeles Dodgers</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Milwaukee Brewers</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">New York Mets</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <a href="#">Philadelphia Phillies</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Pittsburgh Pirates</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">San Diego Padres</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">San Francisco Giants</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+
+
+
+
+
+
+
+
+                        <tr>
+                            <td>
+                                <a href="#">St. Louis Cardinals</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Washington Nationals</a>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>-</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                            <td>
+                                <p>#163</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0-0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER START -->
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                        placeat dicta enim animi libero voluptate amet! Natus numquam sint, similique, dignissimos
+                        veritatis ipsum non alias quaerat iure voluptatum modi. Incidunt?</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3 ">
+                    <h6>Categories</h6>
+                    <ul class="footer-links px-1 ">
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contribute</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+                        <a href="#">Out of the Park Developments</a> .
+                    </p>
+                    <p>the maker of Out of the Park Baseball and Franchise Hockey Manager
+                        Saturday, December 3rd , 2022 - OOTP Baseball 23.9 Build 102</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <img src="images/footer-img.jpg" alt="major league baseball " class="mt-2 mb-3">
+            </div>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

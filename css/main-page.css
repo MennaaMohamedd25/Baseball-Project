@@ -1,0 +1,68 @@
+
+.player-bg{
+    background-color: var(--main-color);
+}
+.player-info ol li,.player-info ol li a  , .result-section p , .result-section td , .result-section th ,  .player-section th{
+    font-size: 13px;
+}
+.player-info h5{
+    font-weight: bold;
+}
+.player-info ol li a , .result-section td , .result-section h4 ,  .result-section th{
+    color: var(--text-color);
+}
+
+.right-side-links  , .left-side-links , .amrican-lang a ,.amrican-lang p ,.standing-section th , .standing-section tr ,.league-table th , .league-table tr ,.result-section th , .result-section td ,  .player-section th ,  .player-section tr{
+    line-height: 0.5rem;
+}
+
+.right-side-links a:focus , .left-side-links a:focus{
+    color: rgba(255, 255, 255, 0.466);
+}
+.right-side-links a{
+    position: relative;
+}
+.links-table{
+    line-height: 0;
+}
+.table>:not(caption)>*>*{
+    padding: 0.5rem;
+}
+.result-section .table>:not(caption)>*>*  {
+    padding: 0.5rem 0.3rem;
+}
+
+.table p{
+    margin-bottom: 0;
+}
+tbody, td, tfoot, th, thead, tr{
+    border-color: var(--main-color);
+    
+}
+.links-table h5 {
+    color: var(--text-color);
+    background-color: var(--main-color);
+}
+.right-side-links h5 {
+    background-color:var(--main-color) ;
+    padding: 5px 10px;
+    margin-bottom: 0;
+}
+.amrican-lang .active , .result-section th {
+    background-color: var(--table-bg);
+}
+ .result-section h4{
+    background-color:var(--main-color) ;
+    padding: 5px ;
+    margin-bottom: 0;
+ }
+.result-colums{
+    background-color: var(--main-color);
+    text-align: center;
+    line-height: 0.5rem;
+    padding: 7px 0px;
+}
+/****************************HOME PAGE**********************/
+.minor p{
+    margin-bottom: 0;
+ }

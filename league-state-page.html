@@ -1,0 +1,4573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Major League Baseball League Stats Page for Major League Baseball</title>
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/mediaquary.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="css/standing-page.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg p-2">
+        <div class="container">
+            <a>
+                <img src="images/logo.png" alt="Major League Baseball logo ">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="standing-page.html">Standings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="league-state-page.html">Stats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="teams-page.html">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="home.html">Team Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="Player.html">Player Details</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- NAVBAR END-->
+    <!-- main section -->
+    <main class="mt-5 mb-3">
+        <div class="container">
+            <div class="main-section px-2 pt-2 main-box">
+                <div class="row ">
+                    <div class="col-lg-2 ">
+                        <div class="main-img">
+                            <img src="images/major_league_baseball.png" alt="Major League Baseball">
+                        </div>
+                    </div>
+                    <div class="col-lg-10  ">
+                        <div class="main-text px-3">
+                            <h2>MAJOR LEAGUE BASEBALL</h2>
+                            <h5>LEAGUE STATS PAGE FOR MAJOR LEAGUE BASEBALL</h5>
+                            <p class="date text-center">04/12/2022</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- nav-tabs -->
+                <ul class="nav justify-content-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BNN Index</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MLB</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SCORES</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">STANDINGS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">STATS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TEAMS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PLAYERS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRANSACTIONS</a>
+                    </li>
+                    <div class="line"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HISTORY</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- main section end-->
+
+
+    <!-- LEADERBOARD section -->
+    <section class="leader-section ">
+        <div class="container">
+            <h4>
+                AMERICAN LEAGUE LEAGUE BATTING LEADERBOARDS
+            </h4>
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        Batting AVG
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        On-Base PCT
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Slugging PCT
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        On-Base + Slugging
+                    </h6>
+                </div>
+            </div>
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        WAR
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Runs Created / 27 outs
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Isolated Power
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Games
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        At-Bats
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+
+                        Runs
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Hits
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Total Bases
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        Singles
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+
+                        Doubles
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Triples
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Home Runs
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        Runs Batted In
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+
+                        Stolen Bases
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Bases On Balls
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Intentional Walks
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        Hit-By-Pitch
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+
+                        Strikeouts
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Sacrifice Hits
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Sacrifice Flies
+                    </h6>
+                </div>
+            </div>
+
+
+
+
+
+
+            <h4>
+                AMERICAN LEAGUE LEAGUE PITCHING LEADERBOARDS
+            </h4>
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        ERA
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+                        Wins
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Losses
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+                        Winning PCT
+                    </h6>
+                </div>
+            </div>
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        Saves
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+                        Games Pitched
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Games Started
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Complete Games
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        Shutouts
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+
+                        Innings Pitched
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+                        Hits Allowed
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+                        Home Runs Allowed
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        Walks Allowed
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+
+                        Walks per 9 IP
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Strikeouts
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Strikeouts per 9 IP
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        K/BB
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+
+                        WHIP
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Hits per 9 IP
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Opponents AVG
+                    </h6>
+                </div>
+            </div>
+
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        Opponents OBP
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+
+
+                        Opponents SLG
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        Opponents OPS
+                    </h6>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        BABIP
+                    </h6>
+                </div>
+            </div>
+
+
+            <div class="row mb-2">
+
+                <div class="col-md-3">
+                    <h6>
+                        WAR
+                    </h6>
+                </div>
+
+
+
+            </div>
+
+
+
+            <div class="table-responsive league-table">
+                <h5>AMERICAN LEAGUE LEAGUE BATTING STATS</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col"> R/G</th>
+                            <th scope="col">R</th>
+                            <th scope="col">G</th>
+                            <th scope="col">AB</th>
+                            <th scope="col">H</th>
+                            <th scope="col">2B</th>
+                            <th scope="col">3B</th>
+                            <th scope="col">HR</th>
+                            <th scope="col">BB</th>
+                            <th scope="col">SO</th>
+                            <th scope="col">SB</th>
+                            <th scope="col">AVG</th>
+                            <th scope="col">OBP</th>
+                            <th scope="col">SLG</th>
+                            <th scope="col">OPS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Houston</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Boston</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">New York</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Tampa Bay</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Toronto</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <a href="#">Chicago</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <a href="#">Cleveland</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Detroit</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Kansas City</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <a href="#">Minnesota</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Los Angeles</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Oakland</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Seattle</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+
+
+
+
+
+
+
+
+                        <tr>
+                            <td>
+                                <a href="#">Texas</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Baltimore</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+
+
+
+
+
+
+
+                        <tr class="total">
+                            <td>
+                                <p>Totals</p>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+
+
+
+
+
+
+
+                        <tr class="total">
+                            <td>
+                                <p>Average</p>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+
+
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="table-responsive league-table">
+                <h5>AMERICAN LEAGUE LEAGUE PITCHING STATS</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-2">Team</th>
+                            <th scope="col"> R/G</th>
+                            <th scope="col">R</th>
+                            <th scope="col">G</th>
+                            <th scope="col">CG</th>
+                            <th scope="col">SHO</th>
+                            <th scope="col">SV</th>
+                            <th scope="col">ERA</th>
+                            <th scope="col">IP</th>
+                            <th scope="col">HA</th>
+                            <th scope="col">HRA</th>
+                            <th scope="col">BB</th>
+                            <th scope="col">K</th>
+                            <th scope="col">WHIP </th>
+                            <th scope="col">OAVG</th>
+                            <th scope="col">BABIP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">Baltimore</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <a href="#">Boston</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Chicago</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Cleveland</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Detroit</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Houston</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Kansas City</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Los Angeles</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Minnesota</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">New York</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Oakland</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Seattle</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <a href="#">Tampa Bay</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Texas</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">Toronto</a>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>0.0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0.00</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                            <td>
+                                <p>.000</p>
+                            </td>
+                        </tr>
+
+
+
+
+                        <tr class="total">
+                            <td>
+                                <p>Totals</p>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+
+
+
+
+
+                        <tr class="total">
+                            <td>
+                                <p>Average</p>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p></p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+                                <p>0</p>
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+
+
+
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+
+
+<!--  -->
+<h4>
+    NATIONAL LEAGUE LEAGUE BATTING LEADERBOARDS
+</h4>
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            Batting AVG
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            On-Base PCT
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Slugging PCT
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            On-Base + Slugging
+        </h6>
+    </div>
+</div>
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            WAR
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Runs Created / 27 outs
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Isolated Power
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Games
+        </h6>
+    </div>
+</div>
+
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            At-Bats
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+
+            Runs
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Hits
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Total Bases
+        </h6>
+    </div>
+</div>
+
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            Singles
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+
+            Doubles
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Triples
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Home Runs
+        </h6>
+    </div>
+</div>
+
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            Runs Batted In
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+
+            Stolen Bases
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Bases On Balls
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Intentional Walks
+        </h6>
+    </div>
+</div>
+
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            Hit-By-Pitch
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+
+            Strikeouts
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Sacrifice Hits
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Sacrifice Flies
+        </h6>
+    </div>
+</div>
+
+<!--  -->
+<h4>
+    NATIONAL LEAGUE LEAGUE BATTING LEADERBOARDS
+</h4>
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            ERA
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+            Wins
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Losses
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+            Winning PCT
+        </h6>
+    </div>
+</div>
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            Saves
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+            Games Pitched
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Games Started
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Complete Games
+        </h6>
+    </div>
+</div>
+
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            Shutouts
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+
+            Innings Pitched
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+            Hits Allowed
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+            Home Runs Allowed
+        </h6>
+    </div>
+</div>
+
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            Walks Allowed
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+
+            Walks per 9 IP
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Strikeouts
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Strikeouts per 9 IP
+        </h6>
+    </div>
+</div>
+
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            K/BB
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+
+            WHIP
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Hits per 9 IP
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Opponents AVG
+        </h6>
+    </div>
+</div>
+
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            Opponents OBP
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+
+
+            Opponents SLG
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            Opponents OPS
+        </h6>
+    </div>
+    <div class="col-md-3">
+        <h6>
+            BABIP
+        </h6>
+    </div>
+</div>
+
+
+<div class="row mb-2">
+
+    <div class="col-md-3">
+        <h6>
+            WAR
+        </h6>
+    </div>
+
+
+        </div>
+
+
+
+
+
+
+        
+        <div class="table-responsive league-table">
+            <h5>AMERICAN LEAGUE LEAGUE BATTING STATS</h5>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="col-2">Team</th>
+                        <th scope="col"> R/G</th>
+                        <th scope="col">R</th>
+                        <th scope="col">G</th>
+                        <th scope="col">AB</th>
+                        <th scope="col">H</th>
+                        <th scope="col">2B</th>
+                        <th scope="col">3B</th>
+                        <th scope="col">HR</th>
+                        <th scope="col">BB</th>
+                        <th scope="col">SO</th>
+                        <th scope="col">SB</th>
+                        <th scope="col">AVG</th>
+                        <th scope="col">OBP</th>
+                        <th scope="col">SLG</th>
+                        <th scope="col">OPS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="#">Houston</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="#">Boston</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="#">New York</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="#">Tampa Bay</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="#">Toronto</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <a href="#">Chicago</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <a href="#">Cleveland</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Detroit</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Kansas City</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <a href="#">Minnesota</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Los Angeles</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Oakland</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Seattle</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+
+
+
+
+
+
+
+
+                    <tr>
+                        <td>
+                            <a href="#">Texas</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="#">Baltimore</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+
+
+
+
+
+
+
+                    <tr class="total">
+                        <td>
+                            <p>Totals</p>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+
+
+
+
+
+
+
+                    <tr class="total">
+                        <td>
+                            <p>Average</p>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+
+
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="table-responsive league-table">
+            <h5>AMERICAN LEAGUE LEAGUE PITCHING STATS</h5>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="col-2">Team</th>
+                        <th scope="col"> R/G</th>
+                        <th scope="col">R</th>
+                        <th scope="col">G</th>
+                        <th scope="col">CG</th>
+                        <th scope="col">SHO</th>
+                        <th scope="col">SV</th>
+                        <th scope="col">ERA</th>
+                        <th scope="col">IP</th>
+                        <th scope="col">HA</th>
+                        <th scope="col">HRA</th>
+                        <th scope="col">BB</th>
+                        <th scope="col">K</th>
+                        <th scope="col">WHIP </th>
+                        <th scope="col">OAVG</th>
+                        <th scope="col">BABIP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="#">Baltimore</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="#">Boston</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Chicago</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Cleveland</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Detroit</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Houston</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Kansas City</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Los Angeles</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Minnesota</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">New York</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Oakland</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Seattle</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <a href="#">Tampa Bay</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Texas</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Toronto</a>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>0.0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0.00</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                        <td>
+                            <p>.000</p>
+                        </td>
+                    </tr>
+
+
+
+
+                    <tr class="total">
+                        <td>
+                            <p>Totals</p>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p></p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+
+
+
+
+
+                    <tr class="total">
+                        <td>
+                            <p>Average</p>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p></p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+                            <p>0</p>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+
+
+
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER START -->
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                        placeat dicta enim animi libero voluptate amet! Natus numquam sint, similique, dignissimos
+                        veritatis ipsum non alias quaerat iure voluptatum modi. Incidunt?</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3 ">
+                    <h6>Categories</h6>
+                    <ul class="footer-links px-1 ">
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Javascript</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contribute</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+                        <a href="#">Out of the Park Developments</a> .
+                    </p>
+                    <p>the maker of Out of the Park Baseball and Franchise Hockey Manager
+                        Saturday, December 3rd , 2022 - OOTP Baseball 23.9 Build 102</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <img src="images/footer-img.jpg" alt="major league baseball " class="mt-2 mb-3">
+            </div>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

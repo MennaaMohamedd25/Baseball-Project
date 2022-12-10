@@ -1,0 +1,98 @@
+.standing-section th{
+color: var(--text-color);
+font-weight: normal;
+background-color: var(--table-bg);
+font-size: 13px;
+}
+.standing-section h5{
+    
+    background-color: var(--main-color);
+    padding: 5px 7px;
+    margin-bottom: 0;
+}
+
+.leader-section h4 , .leader-section h5 ,.total {
+    background-color: var(--table-bg);
+    padding: 5px 10px;
+    margin-bottom: 0;
+  
+}
+.leader-section h6{
+    background-color: var(--main-color);
+    padding: 5px 10px;
+    font-weight: 700;
+
+}
+.league-table th {
+    color: var(--text-color);
+}
+/************/
+
+.player-info p{
+padding: 0px 10px;
+font-size: 1.1rem;
+
+}
+.player-section h5 {
+    background-color: var(--main-color);
+    padding: 5px 10px;
+    margin-bottom: 0;
+}
+ .player-section h6{
+    background-color: var(--main-color);
+    padding: 5px ;
+    margin-bottom: 0;
+ }
+
+ .player-section th{
+    background-color: var(--table-bg);
+    color: var(--text-color);
+    font-weight: normal;
+ }
+ .player-section td{
+    color: var(--text-color);
+    font-size: 13px;
+ }
+
+
+ .player-section .progress{
+    border-radius: unset;
+ }
+ .player-section .progress-one .progress-bar{
+    background-color: rgb(0, 128, 100) ;
+ }
+ .player-section .progress-two .progress-bar{
+    background-color: rgb(190, 207, 35) ;
+ }
+
+
+ .player-section .blue-color{
+    color: #66bbff;
+ }
+
+ .player-section .green-color{
+    color: #44cc55;
+ }
+
+ .player-section .yellow-color{
+    color: #E6DF00;
+ }
+ .player-section .orange-color{
+    color: #FA8030;
+ }
+ .player-section .red-color{
+    color: red;
+ }
+
+ .player-score p,.player-score td{
+    font-size: 0.9rem;
+    font-weight: 600;
+ }
+ .player-section .b-data {
+    line-height: 1rem;
+ }
+ .player-section .total{
+    background-color: var(--table-bg);
+    color: var(--text-color);
+ }
+ 

@@ -1,0 +1,20 @@
+.teams-section{
+    margin-bottom: 10px;
+}
+.teams-bg{
+    background-color: var(--main-color);
+    padding: 5px 10px;
+}
+
+.teams-bg h4{
+    margin: 20px 0px;
+    font-weight: 500;
+}
+
+.teams-section .row{
+    margin-bottom: 20px;
+}
+
+.teams-bg p {
+    margin-bottom: 0;
+}

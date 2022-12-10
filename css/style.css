@@ -1,0 +1,162 @@
+/************GOLOBAL***********/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
+    color: var(--text-color);
+
+}
+
+:root {
+    --main-color: #444444;
+    --text-color: #fff ;
+    --box-bg: #5a5757;
+    --table-bg: #222222;
+    
+  }
+  a{
+    color: var(--text-color);
+    font-size: 13px;
+  }
+  p{
+    color: var(--text-color);
+    font-size: 13px;
+}
+section .container{
+  width: 80%;
+}
+/************GOLOBAL END***********/
+
+
+/***********NAVBAR*********/
+.navbar{
+   background-color: var(--main-color);
+}
+.nav-link{
+   color: var(--text-color);
+}
+.nav-link:hover , a:hover ,.player-info ol li a:hover{
+    color: rgba(255, 255, 255, 0.466);
+}
+.nav-link:focus , a:focus , .player-info ol li a:focus{
+    color: #333333;
+}
+/***********NAVBAR END*********/
+
+
+/**********MAIN SECTION*********/
+main .container ,footer .container {
+    width: 80%;
+}
+
+.main-box , .player-bg {
+    background-color:var(--box-bg);
+}
+.date{
+    font-size: 12px;
+}
+main .nav-link{
+    padding: 6px;
+    font-size: 14px;
+}
+.line{
+    width: 0.6px;
+    height: 20px;
+    border: 1px solid var(--text-color);
+    position: relative;
+    top: 7px;
+}
+
+
+
+
+
+
+
+
+/**************FOOTER*****************/
+
+.site-footer
+{
+  background-color:var(--main-color);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+ 
+}
+.site-footer hr
+{
+  border-top-color:var(--table-bg);
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+ font-weight: 700;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  
+  color: var(--text-color);
+}
+.site-footer a:hover
+{
+  color: rgba(255, 255, 255, 0.466);
+ 
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+   
+ text-decoration: none;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+    color: rgba(255, 255, 255, 0.466);
+  
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d;
+  color: var(--text-color);
+  
+}
+.copyright-text
+{
+  margin:0
+}
+/**************FOOTER END*****************/
+
+
+
+
+
+/*******MEDIA QUARY*******/
